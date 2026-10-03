@@ -21,6 +21,6 @@ public class HelloController {
     }
     @GetMapping("/goodbye")
     public String goodbye() {
-        return "Goodbye :" + LocalDate.now().toString();
+        return "Goodbye: " + LocalDate.now().toString();
     }
 }
