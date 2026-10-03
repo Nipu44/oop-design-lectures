@@ -15,4 +15,12 @@ public class HelloController {
     public String status() {
         return "API running :" + LocalDate.now().toString();
     }
+    @GetMapping("/index")
+    public String index() {
+        return "Index :" + LocalDate.now().toString();
+    }
+    @GetMapping("/goodbye")
+    public String goodbye() {
+        return "Goodbye :" + LocalDate.now().toString();
+    }
 }
