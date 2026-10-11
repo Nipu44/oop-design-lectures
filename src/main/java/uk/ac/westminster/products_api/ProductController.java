@@ -1,10 +1,9 @@
-package uk.ac.westminster.products_api.controller;
+package uk.ac.westminster.products_api;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import uk.ac.westminster.products_api.Product;
 
 @RestController
 @RequestMapping("/products")
